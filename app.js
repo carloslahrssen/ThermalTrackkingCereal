@@ -7,6 +7,7 @@ const socket = io.connect('https://thermalapi-yfrisqmrsa.now.sh', {reconnect:tru
 socket.on('connect', (socket)=>{
 	console.log("Connected");
 	shell.on("message", (data)=>{
+		console.log(data);
 		socket.emit('temp',{temp:data});
 	});
 });
