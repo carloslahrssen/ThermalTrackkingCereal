@@ -1,7 +1,7 @@
 const io = require('socket.io-client');
 const python = require('python-shell');
 
-const socket = io.connect('https://thermalapi-vqwnusnuur.now.sh', {reconnect:true});
+const socket = io.connect('https://thermalapi-feojfwdtrr.now.sh', {reconnect:true});
 
 socket.on('connect', (socket)=>{
 	console.log("Connected");
