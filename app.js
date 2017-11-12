@@ -1,5 +1,6 @@
 const io = require('socket.io-client');
 const python = require('python-shell');
+const shell = new python('cereal.py',{mode:'text'});
 
 const socket = io.connect('https://thermalapi-feojfwdtrr.now.sh', {reconnect:true});
 
