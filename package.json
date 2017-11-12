@@ -1,0 +1,25 @@
+{
+  "name": "Thermal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloslahrssen/ThermalTrackkingCereal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloslahrssen/ThermalTrackkingCereal/issues"
+  },
+  "homepage": "https://github.com/carloslahrssen/ThermalTrackkingCereal#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "python-shell": "^0.4.0",
+    "socket.io": "^2.0.4"
+  }
+}
