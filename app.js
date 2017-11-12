@@ -4,7 +4,8 @@ const shell = new python('cereal.py',{mode:'text'});
 
 const socket = io.connect('https://thermalapi-yfrisqmrsa.now.sh', {reconnect:true});
 
-socket.on('connect', (socket)=>{
+
+socket.on('connect', ()=>{
 	console.log("Connected");
 	shell.on("message", (data)=>{
 		console.log(data);
